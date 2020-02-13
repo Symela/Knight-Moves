@@ -1,2 +1,2 @@
 # Knight-Moves
-Αn Android application (Java) that finds all the possible paths that one knight piece could take from a starting position, in order to reach an ending position in 3 moves.
+An Android application (Java) that renders an empty chessboard where the user is able to mark a starting position and an ending position. The app then renders a list of all possible paths that one knight piece in the starting position could take to reach the ending position in 3 moves. Some inputs might not have a solution, in this case the program displays a message that no solution has been found.  The user is able to reset the board and start again. The rendered chessboard can be of any size NxN where 6&lt;=N&lt;=16.
