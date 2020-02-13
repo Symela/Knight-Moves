@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center"
+        android:height="@android:dimen/notification_large_icon_height"
+        android:width="@android:dimen/notification_large_icon_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1dip"
+                android:color="@color/colorAccent" />
+        </shape>
+    </item>
+
+    <item
+        android:width="2dp"
+        android:gravity="center_horizontal">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+
+    <item
+        android:height="2dp"
+        android:gravity="center_vertical">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+</layer-list>
